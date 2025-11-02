@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personnel - Clinique Tiznit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo.png" alt="Logo Clinique Tiznit" class="logo-img">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="informatique.html">Service Informatique</a></li>
+        <li><a href="personnel.html" class="active">Personnel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="personnel-page">
+
+    <h1>Équipe de la Clinique Tiznit des Spécialités</h1>
+
+    <!-- SEARCH BAR -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Rechercher par nom, poste ou service...">
+    </div>
+
+    <!-- SECTION MÉDICALE -->
+    <section class="staff-section">
+      <h2>👩‍⚕️ Équipe Médicale</h2>
+      <div class="staff-container">
+        <div class="staff-card">
+          <img src="images/doctor_female.png" alt="Dr. Sara Arabi">
+          <h3>Dr. Sara Arabi</h3>
+          <p>Dermatologue</p>
+          <button class="contact-btn" data-name="Dr. Sara Arabi" data-email="sara.arabi@clinique.tiznit.ma" data-phone="+212 6 12 34 56 78">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/doctor_male.png" alt="Dr. Rachid El Amrani">
+          <h3>Dr. Rachid El Amrani</h3>
+          <p>Radiologue</p>
+          <button class="contact-btn" data-name="Dr. Rachid El Amrani" data-email="rachid.amrani@clinique.tiznit.ma" data-phone="+212 6 22 33 44 55">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/doctor_female.png" alt="Dr. Nadia Bennani">
+          <h3>Dr. Nadia Bennani</h3>
+          <p>Cardiologue</p>
+          <button class="contact-btn" data-name="Dr. Nadia Bennani" data-email="nadia.bennani@clinique.tiznit.ma" data-phone="+212 6 66 77 88 99">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/doctor_male.png" alt="Dr. Karim Ouali">
+          <h3>Dr. Karim Ouali</h3>
+          <p>Chirurgien</p>
+          <button class="contact-btn" data-name="Dr. Karim Ouali" data-email="karim.ouali@clinique.tiznit.ma" data-phone="+212 6 11 22 33 44">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/doctor_female.png" alt="Dr. Hajar Idrissi">
+          <h3>Dr. Hajar Idrissi</h3>
+          <p>Gynécologue</p>
+          <button class="contact-btn" data-name="Dr. Hajar Idrissi" data-email="hajar.idrissi@clinique.tiznit.ma" data-phone="+212 6 98 76 54 32">Contact</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION INFORMATIQUE -->
+    <section class="staff-section">
+      <h2>💻 Équipe Informatique</h2>
+      <div class="staff-container">
+        <div class="staff-card">
+          <img src="images/avatar_it_male.png" alt="Youness Elmessaoudi">
+          <h3>Youness Elmessaoudi</h3>
+          <p>Technicien Réseau</p>
+          <button class="contact-btn" data-name="Youness Elmessaoudi" data-email="youness.elmessaoudi@clinique.tiznit.ma" data-phone="+212 6 12 00 11 22">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/avatar_it_female.png" alt="Imane Lahrichi">
+          <h3>Imane Lahrichi</h3>
+          <p>Développeuse Web</p>
+          <button class="contact-btn" data-name="Imane Lahrichi" data-email="imane.lahrichi@clinique.tiznit.ma" data-phone="+212 6 22 33 44 11">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/avatar_it_male.png" alt="Saad El Idrissi">
+          <h3>Saad El Idrissi</h3>
+          <p>Responsable IT</p>
+          <button class="contact-btn" data-name="Saad El Idrissi" data-email="saad.idrissi@clinique.tiznit.ma" data-phone="+212 6 55 44 33 22">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/avatar_it_female.png" alt="Hajar El Moutaouakil">
+          <h3>Hajar El Moutaouakil</h3>
+          <p>Support Technique</p>
+          <button class="contact-btn" data-name="Hajar El Moutaouakil" data-email="hajar.elmoutaouakil@clinique.tiznit.ma" data-phone="+212 6 88 77 66 55">Contact</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ADMINISTRATIVE -->
+    <section class="staff-section">
+      <h2>🧾 Équipe Administrative</h2>
+      <div class="staff-container">
+        <div class="staff-card">
+          <img src="images/avatar_admin_female.png" alt="Salma Bouzid">
+          <h3>Salma Bouzid</h3>
+          <p>Secrétaire Médicale</p>
+          <button class="contact-btn" data-name="Salma Bouzid" data-email="salma.bouzid@clinique.tiznit.ma" data-phone="+212 6 44 55 66 77">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/avatar_admin_male.png" alt="Hamid Oufkir">
+          <h3>Hamid Oufkir</h3>
+          <p>Responsable RH</p>
+          <button class="contact-btn" data-name="Hamid Oufkir" data-email="hamid.oufkir@clinique.tiznit.ma" data-phone="+212 6 77 88 99 00">Contact</button>
+        </div>
+
+        <div class="staff-card">
+          <img src="images/avatar_admin_female.png" alt="Laila Bennani">
+          <h3>Laila Bennani</h3>
+          <p>Comptable</p>
+          <button class="contact-btn" data-name="Laila Bennani" data-email="laila.bennani@clinique.tiznit.ma" data-phone="+212 6 33 22 11 00">Contact</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Clinique Tiznit des Spécialités – Équipe du Personnel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

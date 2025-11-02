@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Informatique - Clinique Tiznit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Barre de navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo.png" alt="Logo Clinique Tiznit" class="logo-img">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="informatique.html" class="active">Service Informatique</a></li>
+        <li><a href="personnel.html">Personnel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="info-page">
+
+    <!-- Section des services -->
+    <section class="service-intro">
+      <h1>Service Informatique</h1>
+      <p>
+        Le service informatique de la Clinique Tiznit des Spécialités propose plusieurs services 
+        visant à assurer le bon fonctionnement des systèmes informatiques. 
+        Ces services ont été gérés et développés durant le stage.
+      </p>
+
+      <div class="services-container">
+        <div class="service-card">
+          <h3>Maintenance et Réparation</h3>
+          <p>Diagnostic et réparation du matériel informatique et des périphériques utilisés par le personnel.</p>
+          <a href="#form-assistance" class="btn-service">Faire une demande</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Développement Web</h3>
+          <p>Création et mise à jour des pages web internes de la clinique pour améliorer la communication interne.</p>
+          <a href="#form-assistance" class="btn-service">Faire une demande</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Installation Logicielle</h3>
+          <p>Installation, configuration et mise à jour des logiciels médicaux et bureautiques.</p>
+          <a href="#form-assistance" class="btn-service">Faire une demande</a>
+        </div>
+
+        <div class="service-card">
+          <h3>Assistance Technique</h3>
+          <p>Aide et support technique au personnel médical et administratif en cas de problème informatique.</p>
+          <a href="#form-assistance" class="btn-service">Faire une demande</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section du formulaire -->
+    <section class="formulaire-assistance" id="form-assistance">
+      <h2>Demande d’assistance technique</h2>
+      <!-- ✅ Added novalidate to disable default browser validation -->
+      <form id="form-assistance-form" novalidate>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="Ex: Dr. Flan BenFlan">
+
+        <label for="service">Service :</label>
+        <input type="text" id="service" placeholder="Ex: Laboratoire, Radiologie...">
+
+        <label for="probleme">Description du problème :</label>
+        <textarea id="probleme" rows="4" placeholder="Décrivez le problème rencontré..."></textarea>
+
+        <button type="submit">Envoyer la demande</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 Clinique Tiznit des Spécialités – Service Informatique</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
